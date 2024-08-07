@@ -37,21 +37,21 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               <h2 className="font-bold text-lg">WHAT'S HOT</h2>
              
               <div className="flex items-center mt-4">
-                <img src="https://via.placeholder.com/50" alt="Hot news" className="w-12 h-12 rounded-md mr-4" />
+                <img src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/thisisengineering-raeng-a7A9O5htrKs-unsplash-150x100.jpg" alt="Hot news" className="w-12 h-12 rounded-md mr-4" />
                 <div>
                   <p className="text-sm font-bold">Game Development This Week: Save On Essential Tools and More</p>
                   <span className="text-xs text-gray-400">Nov 19, 2022</span>
                 </div>
               </div>
               <div className="flex items-center mt-4">
-                <img src="https://via.placeholder.com/50" alt="Hot news" className="w-12 h-12 rounded-md mr-4" />
+                <img src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_242235046_xl-2015-1-450x256.jpg" alt="Hot news" className="w-12 h-12 rounded-md mr-4" />
                 <div>
                   <p className="text-sm font-bold">Is the Hyperloop Doomed? What Elon Musk's Latest Setback Really Means</p>
                   <span className="text-xs text-gray-400">Mar 10, 2022</span>
                 </div>
               </div>
                <div className="flex items-center mt-4">
-                <img src="https://via.placeholder.com/50" alt="Hot news" className="w-12 h-12 rounded-md mr-4" />
+                <img src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/remy_loz-3vVzdb8KKIw-unsplash-450x300.jpg" alt="Hot news" className="w-12 h-12 rounded-md mr-4" />
                 <div>
                   <p className="text-sm font-bold">Is the Hyperloop Doomed? What Elon Musk's Latest Setback Really Means</p>
                   <span className="text-xs text-gray-400">Mar 10, 2022</span>
