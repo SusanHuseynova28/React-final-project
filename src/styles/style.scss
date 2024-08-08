@@ -5,3 +5,29 @@
 body.dark {
   @apply bg-gray-900 text-white;
 }
+.sidebar {
+  overflow-y: auto;
+
+  /* Custom scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a; /* Track background */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: gray; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounded edges */
+    border: 2px solid #1a1a1a; /* Padding around thumb */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Scrollbar thumb hover color */
+  }
+
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: gray #1a1a1a;
+}
