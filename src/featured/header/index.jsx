@@ -1,11 +1,10 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { ThemeContext } from '../../context/ThemeContext';
 import { FaMoon, FaSun, FaBars, FaSearch, FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaVimeo } from 'react-icons/fa';
 import SideBar from '../../components/SideBar';
 
 const Header = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+ 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -14,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-white dark:bg-gray-900">
+      <header className="bg-black dark:bg-gray-900">
         <div className="bg-black text-white p-2">
           <div className="flex justify-between items-center max-w-screen-xl mx-auto">
             <div className="flex items-center space-x-4 pl-4 md:pl-24 text-sm">
@@ -54,12 +53,17 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-4 text-bold">
             <Link className="font-bold" to="/">Home</Link>
             <div className="relative group">
-              <button className="flex items-center font-bold">
-                Features <span className="ml-1">&#9662;</span>
+              <button className="flex items-center font-bold ">
+                Features <span className="ml-1 ">&#9662;</span>
               </button>
-              <div className="absolute hidden group-hover:block bg-white w-[15rem] h-[40rem] p-4 rounded shadow-lg">
+              <div className="absolute hidden group-hover:block bg-white w-[15rem] h-[40rem] p-4 rounded shadow-lgn z-50">
                 <Link to="/feature1" className="block p-1">50+ Unique Demos</Link>
                 <Link to="/feature2" className="block p-1">Post Styles</Link>
+                <Link to="/feature1" className="block p-1">Category Layouts</Link>
+                <Link to="/feature2" className="block p-1">Header Styles</Link>
+                <Link to="/feature1" className="block p-1">Homepage styles</Link>
+                <Link to="/feature2" className="block p-1">Featured grids</Link>
+                <Link to="/feature1" className="block p-1">12+ Premium widgets</Link>
                 <Link to="/feature1" className="block p-1">Category Layouts</Link>
                 <Link to="/feature2" className="block p-1">Header Styles</Link>
                 <Link to="/feature1" className="block p-1">Homepage styles</Link>
@@ -69,6 +73,11 @@ const Header = () => {
                 <Link to="/feature1" className="block p-1">Homepage styles</Link>
                 <Link to="/feature2" className="block p-1">Featured grids</Link>
                 <Link to="/feature1" className="block p-1">12+ Premium widgets</Link>
+                <Link to="/feature1" className="block p-1">Homepage styles</Link>
+                <Link to="/feature2" className="block p-1">Featured grids</Link>
+                <Link to="/feature1" className="block p-1">12+ Premium widgets</Link>
+                
+                
               </div>
             </div>
             <div className="relative group">
@@ -76,7 +85,7 @@ const Header = () => {
                 Technology <span className="ml-1">&#9662;</span>
               </button>
               <div className="absolute hidden group-hover:block bg-white p-2 rounded shadow-lg">
-                {/* Add technology-related links here */}
+                
               </div>
             </div>
             <Link className='font-bold' to="/gadgets">Gadgets</Link>
@@ -85,9 +94,7 @@ const Header = () => {
           </nav>
           <div className="flex items-center space-x-4">
             <Link to="/subscribe" className="btn w-[100px] bg-[#3c3fde] text-center text-white font-bold p-2 rounded-lg hover:bg-black">Subscribe</Link>
-            <button onClick={toggleTheme}>
-              {theme === 'light' ? <FaMoon /> : <FaSun />}
-            </button>
+           
             <button>
               <FaSearch />
             </button>

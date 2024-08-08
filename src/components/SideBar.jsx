@@ -7,7 +7,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
           <div className="fixed left-0 top-0 w-[320px] bg-black text-white h-full z-50 p-4 sidebar">
-            <button onClick={toggleSidebar} className=" mb-4 pl-[16rem] text-2xl">
+            <button onClick={toggleSidebar} className="mb-4 pl-[16rem] text-2xl">
               <FaTimes />
             </button>
             <div className="flex justify-center space-x-2 mb-4">
@@ -78,9 +78,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                   <span className="text-xs text-gray-400">Mar 10, 2022</span>
                 </div>
               </div>
-              
             </nav>
-            
           </div>
         </div>
       )}
