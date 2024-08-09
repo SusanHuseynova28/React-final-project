@@ -2,7 +2,7 @@ import React from 'react'
 
 const GadGets = () => {
   return (
-    <div>GadGets</div>
+    <div>GadGets1</div>
   )
 }
 
