@@ -1,0 +1,37 @@
+{
+    "cards": [
+      {
+        "id": 1,
+        "title": "Study: Earbuds Use, Youngsters at High Risk of Hearing Loss",
+        "category": "GADGETS",
+        "date": "Mar 15, 2020",
+        "author": "Shane Doe",
+        "image": "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_29247013_xl-2015-2-1024x683.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Telescope is Revealing the Galaxies of the Universe Like Never Before",
+        "category": "TECHNOLOGY",
+        "date": "Mar 15, 2020",
+        "author": "Shane Doe",
+        "image": "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/daniel-korpai-seLBnDRB6_M-unsplash-1-1-450x563.jpg"
+      },
+      {
+        "id": 3,
+        "title": "CarPlay Concept Shows Off a Modular UI Inspired by Next-Gen Design",
+        "category": "PHONES",
+        "date": "Mar 15, 2020",
+        "author": "Shane Doe",
+        "image": "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_245244020_xl-2015-2-450x332.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Latest Windows 11 Preview Build Finally Lets You Search for Copied Text",
+        "category": "TECHNOLOGY",
+        "date": "Mar 15, 2020",
+        "author": "Shane Doe",
+        "image": "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_286775054_xl-2015-1-768x334.jpg"
+      }
+    ]
+  }
+  
