@@ -98,7 +98,7 @@ const Home = () => {
           </div>
         </div>
         <div className="mb-20">
-          <h2 className="text-xl font-bold mb-5">People's Favorite</h2>
+          <h2 className="text-xl font-bold mb-4">People's Favorite</h2>
           <div className=" mb-5 flex ">
             <div className="flex justify-between">
               <div>
