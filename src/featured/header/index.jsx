@@ -1,6 +1,7 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaMoon, FaSun, FaBars, FaSearch, FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaVimeo } from 'react-icons/fa';
+import {  FaBars, FaSearch, FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaVimeo } from 'react-icons/fa';
+import { IoMoonOutline } from "react-icons/io5";
 import SideBar from '../../components/SideBar';
 
 const Header = () => {
@@ -94,7 +95,7 @@ const Header = () => {
           </nav>
           <div className="flex items-center space-x-4">
             <Link to="/subscribe" className="btn w-[100px] bg-[#3c3fde] text-center text-white font-bold p-2 rounded-lg hover:bg-black">Subscribe</Link>
-           
+            <IoMoonOutline />
             <button>
               <FaSearch />
             </button>
