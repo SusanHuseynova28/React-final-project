@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaRegClock } from "react-icons/fa";
 import CardList from "../components/CardList";
 import VideoCards from "../components/VideoCard";
+import NewGadgets from "../components/ScrollCard";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -273,6 +274,7 @@ const Home = () => {
       
       <CardList cards={data} />
       <VideoCards/>
+      <NewGadgets/>
     </>
   );
 };

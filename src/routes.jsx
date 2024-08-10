@@ -3,7 +3,6 @@ import Layout from "./featured/layout";
 import Home from "./pages/Home";
 import GadGets from "./pages/GadGets";
 
-
 export const routes = createBrowserRouter([
   {
     path: "/",
