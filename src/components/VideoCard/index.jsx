@@ -7,13 +7,13 @@ const VideoCards = () => {
       <h2 className="text-2xl font-bold mb-6 ml-14 mt-4">Trending Videos</h2>
       <div className="flex mb-6 ml-[3rem] mr-[3rem]">
         <div className="w-[70%]">
-          <div className="bg-gray-800 rounded-lg overflow-hidden relative mb-6 w-[80%]">
+          <div className="bg-gray-800 rounded-lg overflow-hidden relative mb-6 w-[90%]">
             <img
               src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/sajad-nori-CeyE899Q73Y-unsplash-768x512.jpg"
               alt=""
               className="w-full h-[27rem] object-cover"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center ">
               <FaPlay className="text-white text-6xl" />
             </div>
             <div className="p-4 absolute bottom-0 left-0 w-full">
@@ -67,27 +67,27 @@ const VideoCards = () => {
             ].map(({ id, img, title, date }) => (
               <div
                 key={id}
-                className="relative flex felx-col items-center h-[16rem] w-full"
+                className="relative flex flex-col items-center h-[16rem] w-full mt-4"
               >
                 <img
                   src={img}
                   alt={title}
                   className="w-full h-[70%]  object-cover rounded-md"
                 />
-                <div className="absolute bottom-0 left-7 w-[80%]  bg-black p-2">
+                <div className="absolute bottom-0 left-7 w-[80%]  bg-black p-2 ">
                   <h3 className="text-sm font-bold line-clamp-2 ">{title}</h3>
                   <div className="text-gray-400 text-xs mt-1">
                     <span>Shane Doe</span> • <span>{date}</span>
                   </div>
                 </div>
-                <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute inset-0 flex items-center justify-center mb-10">
                   <FaPlay className="text-white text-3xl" />
                 </div>
               </div>
             ))}
           </div>
         </div>
-        <div className="w-[28%] pr-[3rem] flex flex-col space-y-4 pr-[3rem]">
+        <div className="w-[28%] pr-[3rem] flex flex-col space-y-4 mb-4 ">
           {[
             {
               id: 6,
