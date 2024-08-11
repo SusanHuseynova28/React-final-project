@@ -13,11 +13,11 @@ const RecentPosts = () => {
 
   const handleLoadMore = () => {
     setIsLoading(true);
-    // Simulate a network request or content load
+    
     setTimeout(() => {
       setIsLoading(false);
-      // Load more content logic goes here
-    }, 2000); // Simulate a 2-second load time
+      
+    }, 2000); 
   };
 
   return (

@@ -8,6 +8,7 @@ import ScrollCard from "../components/ScrollCard";
 import Banner2 from "../components/Advertisment2";
 import HighlightedReview from "../components/Advertesment3";
 import RecentPosts from "../components/ScrollCard2";
+import MyCRUDApp from "../components/crudcard";
 
 
 const Home = () => {
@@ -275,6 +276,7 @@ const Home = () => {
       <ScrollCard/>
       <Banner2/>
       <HighlightedReview/>
+      <MyCRUDApp/>
       <RecentPosts/>
     </>
   );
