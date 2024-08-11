@@ -1,8 +1,9 @@
 import React from "react";
 import { SlEnvolopeLetter } from "react-icons/sl";
+import { Link } from 'react-router-dom';
 const ScrollCard = () => {
   return (
-    <div className="container px-4 flex justify-center items-center mt-[3rem] mb-[11rem] ">
+    <div className="container  flex justify-center items-center mt-[3rem] mb-[11rem] ">
       <div className="flex-1 pr-6">
         <div className="space-y-8">
           <div>
@@ -191,7 +192,7 @@ const ScrollCard = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-10 mb-20">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-10 ">
               <div className="flex items-center">
                 <img
                   src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/omid-armin-fxJIHyWTRu4-unsplash-450x302.jpg"
@@ -330,21 +331,21 @@ const ScrollCard = () => {
 
         <div className="p-6 rounded-lg  w-[15rem] border-gray-300 ">
           <h2 className="text-lg font-bold mb-4">Popular Now</h2>
-          <ul className="space-y-4">
-            <li className="flex items-start">
+          <ul className="space-y-4 w-[15rem]">
+            <li className="flex items-start ">
               <span className="flex items-center justify-center bg-blue-500 text-white font-bold mt-[0.5rem] rounded-full w-[6.5rem] h-[2rem] mr-4">
                 1
               </span>
               <div>
-                <a
-                  href="/"
-                  className="text-black text-sm font-semibold hover:text-blue-500"
+                <Link
+                  
+                  className="text-black text-sm font-semibold hover:text-blue-500 "
                 >
                   Popular New Xbox Game Pass Game Being Review Bombed With “0s”
-                </a>
+                </Link>
                 <p className="text-gray-500 text-xs">
                   Shane Doe · Jan 14, 2021 ·
-                  <span className="text-red-600 font-bold">7,792 Views</span>
+                  <span className="text-red-600 font-bold">7,792 </span>
                 </p>
               </div>
             </li>
@@ -362,7 +363,7 @@ const ScrollCard = () => {
                 </a>
                 <p className="text-gray-500 text-xs">
                   Shane Doe · Jan 14, 2021 ·
-                  <span className="text-red-600 font-bold">6,914 Views</span>
+                  <span className="text-red-600 font-bold">6,914 </span>
                 </p>
               </div>
             </li>
@@ -379,7 +380,7 @@ const ScrollCard = () => {
                 </a>
                 <p className="text-gray-500 text-xs">
                   Shane Doe · Jan 14, 2021 ·
-                  <span className="text-red-600 font-bold">4,418 Views</span>
+                  <span className="text-red-600 font-bold">4,418 </span>
                 </p>
               </div>
             </li>
@@ -397,7 +398,7 @@ const ScrollCard = () => {
                 </a>
                 <p className="text-gray-500 text-xs">
                   Shane Doe · Jan 14, 2021 ·
-                  <span className="text-red-600 font-bold">1,013 Views</span>
+                  <span className="text-red-600 font-bold">1,013 </span>
                 </p>
               </div>
             </li>
@@ -415,7 +416,7 @@ const ScrollCard = () => {
                 </a>
                 <p className="text-gray-500 text-xs">
                   Shane Doe · Jan 16, 2021 ·
-                  <span className="text-red-600 font-bold">798 Views</span>
+                  <span className="text-red-600 font-bold">798 </span>
                 </p>
               </div>
             </li>

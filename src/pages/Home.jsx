@@ -3,6 +3,12 @@ import { FaRegClock } from "react-icons/fa";
 import CardList from "../components/CardList";
 import VideoCards from "../components/VideoCard";
 import NewGadgets from "../components/ScrollCard";
+import Banner from "../components/advertisement";
+import ScrollCard from "../components/ScrollCard";
+import Banner2 from "../components/Advertisment2";
+import HighlightedReview from "../components/Advertesment3";
+import RecentPosts from "../components/ScrollCard2";
+
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -260,21 +266,16 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className="flex justify-center items-center my-10">
-          <div className="relative w-full max-w-5xl h-[10rem] rounded-lg overflow-hidden  flex items-center px-8">
-            <img
-              src="https://smartmag.theme-sphere.com/tech-drop/wp-content/uploads/sites/33/2022/10/Wide-Top.jpg"
-              alt="Promotion"
-              className="w-full h-full "
-            />
-          </div>
-        </div>
+        <Banner/>
         <div className="font-bold text-3xl text-center">Editor's Picks</div>
       </div>
       
       <CardList cards={data} />
       <VideoCards/>
-      <NewGadgets/>
+      <ScrollCard/>
+      <Banner2/>
+      <HighlightedReview/>
+      <RecentPosts/>
     </>
   );
 };
