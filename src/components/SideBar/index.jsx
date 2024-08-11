@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaTimes } from 'react-icons/fa';
+import React from "react";
+import { FaTimes } from "react-icons/fa";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
@@ -7,7 +7,10 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
           <div className="fixed left-0 top-0 w-[320px] bg-black text-white h-full z-50 p-4 sidebar">
-            <button onClick={toggleSidebar} className="mb-4 pl-[16rem] text-2xl">
+            <button
+              onClick={toggleSidebar}
+              className="mb-4 pl-[16rem] text-2xl"
+            >
               <FaTimes />
             </button>
             <div className="flex justify-center space-x-2 mb-4">
@@ -22,18 +25,22 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <div className="bg-black border p-4 rounded-md h-[22rem] flex flex-col justify-center mt-10">
               <h2 className="text-lg font-bold mb-2">Subscribe to Updates</h2>
               <p className="text-sm mb-4">
-                Get the latest creative news from FooBar about art, design and business.
+                Get the latest creative news from FooBar about art, design and
+                business.
               </p>
               <input
                 type="email"
                 className="w-full p-2 mb-4 text-black rounded-md bg-black"
                 placeholder="Your email address.."
               />
-              <button className="w-full bg-[#3c3fde] hover:bg-black p-2 rounded-md">SUBSCRIBE</button>
+              <button className="w-full bg-[#3c3fde] hover:bg-black p-2 rounded-md">
+                SUBSCRIBE
+              </button>
               <div className="flex items-center mt-2">
                 <input type="checkbox" className="mr-2" />
                 <span className="text-xs">
-                  By signing up, you agree to our terms and our Privacy Policy agreement.
+                  By signing up, you agree to our terms and our Privacy Policy
+                  agreement.
                 </span>
               </div>
             </div>
@@ -60,7 +67,8 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                 />
                 <div>
                   <p className="text-sm font-bold">
-                    Is the Hyperloop Doomed? What Elon Musk's Latest Setback Really Means
+                    Is the Hyperloop Doomed? What Elon Musk's Latest Setback
+                    Really Means
                   </p>
                   <span className="text-xs text-gray-400">Mar 10, 2022</span>
                 </div>
@@ -73,7 +81,8 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                 />
                 <div>
                   <p className="text-sm font-bold">
-                    Is the Hyperloop Doomed? What Elon Musk's Latest Setback Really Means
+                    Is the Hyperloop Doomed? What Elon Musk's Latest Setback
+                    Really Means
                   </p>
                   <span className="text-xs text-gray-400">Mar 10, 2022</span>
                 </div>

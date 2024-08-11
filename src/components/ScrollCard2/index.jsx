@@ -13,26 +13,26 @@ const RecentPosts = () => {
 
   const handleLoadMore = () => {
     setIsLoading(true);
-    
+
     setTimeout(() => {
       setIsLoading(false);
-      
-    }, 2000); 
+    }, 2000);
   };
 
   return (
-    <div className="container px-5 flex justify-center items-start mt-[2.8rem]">
-      <div className="flex-[1.1] pr-5">
+    <div className="container mt-[2.8rem] px-5 flex justify-center items-start">
+      <div className="pr-5 flex-[1.1]">
         <div className="space-y-7">
           <div className="space-y-3">
-            <div className="flex justify-between items-center mb-5">
-              <h2 className="text-[1.8rem] font-semibold ml-[0.4rem]">
+            <div className="mb-5 flex justify-between items-center">
+              <h2 className="ml-[0.4rem] text-[1.8rem] font-semibold">
                 Latest Gadgets
               </h2>
               <hr className="flex-1 mx-5 border-gray-400" />
             </div>
-            <div className="bg-white rounded-lg shadow-md flex">
-              <div className="relative w-[35%] h-[15rem] rounded-l-lg overflow-hidden">
+
+            <div className="bg-white shadow-md rounded-lg flex">
+              <div className="relative w-[35%] h-[15rem] overflow-hidden rounded-l-lg">
                 <img
                   src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/thisisengineering-raeng-a7A9O5htrKs-unsplash-1024x683.jpg"
                   alt=""
@@ -42,11 +42,11 @@ const RecentPosts = () => {
                   GAMING
                 </div>
               </div>
-              <div className="p-5 flex-1">
-                <h2 className="text-[1.2rem] font-bold mb-3">
+              <div className="flex-1 p-5">
+                <h2 className="mb-3 text-[1.2rem] font-bold">
                   Game Development This Week: Save On Essential Tools and More
                 </h2>
-                <div className="text-gray-500 text-sm mb-5 flex items-center">
+                <div className="mb-5 text-gray-500 text-sm flex items-center">
                   <img
                     src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
                     alt=""
@@ -62,8 +62,8 @@ const RecentPosts = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md flex ">
-              <div className="relative w-[35%] h-[15rem] rounded-l-lg overflow-hidden">
+            <div className="bg-white shadow-md rounded-lg flex">
+              <div className="relative w-[35%] h-[15rem] overflow-hidden rounded-l-lg">
                 <img
                   src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_242235046_xl-2015-1-1024x582.jpg"
                   alt=""
@@ -73,12 +73,12 @@ const RecentPosts = () => {
                   TECHNOLOGY
                 </div>
               </div>
-              <div className="p-5 flex-1">
-                <h2 className="text-[1.2rem] font-bold mb-3">
+              <div className="flex-1 p-5">
+                <h2 className="mb-3 text-[1.2rem] font-bold">
                   Is the Hyperloop Doomed? What Elon Musk's Latest Setback
                   Really Means
                 </h2>
-                <div className="text-gray-500 text-sm mb-5 flex items-center">
+                <div className="mb-5 text-gray-500 text-sm flex items-center">
                   <img
                     src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
                     alt=""
@@ -94,8 +94,8 @@ const RecentPosts = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md flex">
-              <div className="relative w-[35%] h-[15rem] rounded-l-lg overflow-hidden">
+            <div className="bg-white shadow-md rounded-lg flex">
+              <div className="relative w-[35%] h-[15rem] overflow-hidden rounded-l-lg">
                 <img
                   src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/remy_loz-3vVzdb8KKIw-unsplash-1024x683.jpg"
                   alt=""
@@ -105,12 +105,12 @@ const RecentPosts = () => {
                   TECHNOLOGY
                 </div>
               </div>
-              <div className="p-5 flex-1">
-                <h2 className="text-[1.2rem] font-bold mb-3">
+              <div className="flex-1 p-5">
+                <h2 className="mb-3 text-[1.2rem] font-bold">
                   The Best Early Black Friday Deals on Gaming Laptops and
                   Accessories
                 </h2>
-                <div className="text-gray-500 text-sm mb-5 flex items-center">
+                <div className="mb-5 text-gray-500 text-sm flex items-center">
                   <img
                     src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
                     alt=""
@@ -126,21 +126,21 @@ const RecentPosts = () => {
               </div>
             </div>
 
-            <div className="relative bg-black rounded-lg overflow-hidden h-[27rem]">
+            <div className="relative bg-black h-[27rem] rounded-lg overflow-hidden">
               <img
                 src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/matias-islas-Nw0j-2YAnfI-unsplash-1-1024x683.jpg"
                 alt=""
                 className="w-full h-full object-cover opacity-50"
               />
               <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                <div className="bg-pink-600 text-white text-xs font-semibold w-[4rem] px-2 py-1 rounded mb-2">
+                <div className="mb-2 bg-pink-600 text-white text-xs font-semibold w-[4rem] px-2 py-1 rounded">
                   GAMING
                 </div>
-                <h2 className="text-white text-[2.8rem] font-bold mb-4">
+                <h2 className="mb-4 text-white text-[2.8rem] font-bold">
                   Riot Games Acquires a Wargaming Studio to Help With Live Game
                   Development
                 </h2>
-                <div className="flex items-center text-white text-sm">
+                <div className="text-white text-sm flex items-center">
                   <img
                     src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
                     alt=""
@@ -151,8 +151,8 @@ const RecentPosts = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md flex">
-              <div className="relative w-[35%] h-[15rem] rounded-l-lg overflow-hidden">
+            <div className="bg-white shadow-md rounded-lg flex">
+              <div className="relative w-[35%] h-[15rem] overflow-hidden rounded-l-lg">
                 <img
                   src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/remy-gieling-bA5ZJ9JVrb8-unsplash-1-1024x651.jpg"
                   alt=""
@@ -162,11 +162,11 @@ const RecentPosts = () => {
                   GAMING
                 </div>
               </div>
-              <div className="p-5 flex-1">
-                <h2 className="text-[1.2rem] font-bold mb-3">
+              <div className="flex-1 p-5">
+                <h2 className="mb-3 text-[1.2rem] font-bold">
                   Game Development This Week: Save On Essential Tools and More
                 </h2>
-                <div className="text-gray-500 text-sm mb-5 flex items-center">
+                <div className="mb-5 text-gray-500 text-sm flex items-center">
                   <img
                     src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
                     alt=""
@@ -182,8 +182,8 @@ const RecentPosts = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md flex">
-              <div className="relative w-[35%] h-[15rem] rounded-l-lg overflow-hidden">
+            <div className="bg-white shadow-md rounded-lg flex">
+              <div className="relative w-[35%] h-[15rem] overflow-hidden rounded-l-lg">
                 <img
                   src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-bogdan-glisik-1661469-1-edited-1536x960.jpg"
                   alt=""
@@ -193,11 +193,11 @@ const RecentPosts = () => {
                   TECHNOLOGY
                 </div>
               </div>
-              <div className="p-5 flex-1">
-                <h2 className="text-[1.2rem] font-bold mb-3">
+              <div className="flex-1 p-5">
+                <h2 className="mb-3 text-[1.2rem] font-bold">
                   Keep Talking and Nobody Explodes: A Boomer Gaming in VR
                 </h2>
-                <div className="text-gray-500 text-sm mb-5 flex items-center">
+                <div className="mb-5 text-gray-500 text-sm flex items-center">
                   <img
                     src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
                     alt="Author"
@@ -213,8 +213,8 @@ const RecentPosts = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md flex">
-              <div className="relative w-[35%] h-[15rem] rounded-l-lg overflow-hidden">
+            <div className="bg-white shadow-md rounded-lg flex">
+              <div className="relative w-[35%] h-[15rem] overflow-hidden rounded-l-lg">
                 <img
                   src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-luis-quintero-1787236-1024x683.jpg"
                   alt=""
@@ -224,11 +224,11 @@ const RecentPosts = () => {
                   TECHNOLOGY
                 </div>
               </div>
-              <div className="p-5 flex-1">
-                <h2 className="text-[1.2rem] font-bold mb-3">
+              <div className="flex-1 p-5">
+                <h2 className="mb-3 text-[1.2rem] font-bold">
                   Apple Watch’s ECG Can Help Diagnose Heart Problem: Research
                 </h2>
-                <div className="text-gray-500 text-sm mb-5 flex items-center">
+                <div className="mb-5 text-gray-500 text-sm flex items-center">
                   <img
                     src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
                     alt=""
@@ -244,8 +244,8 @@ const RecentPosts = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md flex">
-              <div className="relative w-[35%] h-[15rem] rounded-l-lg overflow-hidden">
+            <div className="bg-white shadow-md rounded-lg flex">
+              <div className="relative w-[35%] h-[15rem] overflow-hidden rounded-l-lg">
                 <img
                   src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-bruno-bueno-3854821-1024x683.jpg"
                   alt=""
@@ -255,12 +255,12 @@ const RecentPosts = () => {
                   TECHNOLOGY
                 </div>
               </div>
-              <div className="p-5 flex-1">
-                <h2 className="text-[1.2rem] font-bold mb-3">
+              <div className="flex-1 p-5">
+                <h2 className="mb-3 text-[1.2rem] font-bold">
                   Simple Tips and Tricks to Take Care of Your Expensive DSLR
                   Camera
                 </h2>
-                <div className="text-gray-500 text-sm mb-5 flex items-center">
+                <div className="mb-5 text-gray-500 text-sm flex items-center">
                   <img
                     src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
                     alt=""
@@ -278,7 +278,7 @@ const RecentPosts = () => {
 
             <button
               onClick={handleLoadMore}
-              className="bg-blue-700 hover:bg-blue-600 text-white font-bold py-2 px-7 rounded-full w-[16rem] shadow-lg mt-7 mx-auto block flex items-center justify-center"
+              className="w-[16rem] mt-7 mx-auto flex items-center justify-center py-2 px-7 bg-blue-700 hover:bg-blue-600 text-white font-bold rounded-full shadow-lg"
               disabled={isLoading}
             >
               {isLoading ? (
@@ -310,9 +310,9 @@ const RecentPosts = () => {
         </div>
       </div>
 
-      <div className="w-[23%] sticky top-0 h-screen mb-[21rem] space-y-5 pr-5">
+      <div className="w-[23%] pr-5 sticky top-0 h-screen mb-[15rem] space-y-5">
         <div className="p-5 rounded-lg shadow-md border border-gray-400">
-          <h2 className="text-lg font-semibold mb-5 text-center">
+          <h2 className="mb-5 text-lg font-semibold text-center">
             Connect With Us
           </h2>
           <div className="grid grid-cols-2 gap-3">
@@ -356,21 +356,21 @@ const RecentPosts = () => {
         </div>
 
         <div className="p-5 rounded-lg">
-          <h2 className="text-lg font-semibold mb-5">Gaming Zone</h2>
+          <h2 className="mb-5 text-lg font-semibold">Gaming Zone</h2>
           <div className="space-y-4">
             <div>
               <img
                 src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_422755408_xl-2015-1-1024x512.jpg"
                 alt=""
-                className="w-full h-auto rounded-lg object-cover mb-2"
+                className="mb-2 w-full h-auto object-cover rounded-lg"
               />
-              <div className="absolute bottom-[10.8rem] left-[1rem] bg-pink-600 text-white text-xs font-semibold px-2 py-1 rounded">
+              <div className="absolute bottom-[13rem] left-[1.2rem] bg-pink-600 text-white text-xs font-semibold px-2 py-1 rounded">
                 GAMING
               </div>
               <h3 className="text-sm font-bold">
                 PS5 vs Xbox Series XS vs Switch Launch Sales Comparison
               </h3>
-              <div className="text-xs text-gray-500 mt-1">
+              <div className="mt-1 text-xs text-gray-500">
                 Shane Doe · Sep 8, 2020
               </div>
             </div>

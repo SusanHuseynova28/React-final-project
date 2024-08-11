@@ -24,8 +24,11 @@ const VideoCards = () => {
               </div>
               <div className=" bg-opacity-60 p-2 rounded w-fit">
                 <h3 className="bg-black text-2xl font-bold mb-2 p-2">
-                  Soundcore VR Gaming Earbuds Designed for</h3>
-                <h3 className="bg-black text-2xl font-bold p-2 w-[20rem] ">Meta Quest 2 Launched</h3>
+                  Soundcore VR Gaming Earbuds Designed for
+                </h3>
+                <h3 className="bg-black text-2xl font-bold p-2 w-[20rem] ">
+                  Meta Quest 2 Launched
+                </h3>
               </div>
               <div className="text-white mt-2 flex gap-2">
                 <img
@@ -123,7 +126,9 @@ const VideoCards = () => {
               className="relative bg-transparent rounded-md overflow-hidden flex items-center h-[6rem]"
             >
               <div className="flex-1 ml-2">
-                <h3 className="text-sm font-bold line-clamp-2 cursor-pointer hover:text-blue-700">{title}</h3>
+                <h3 className="text-sm font-bold line-clamp-2 cursor-pointer hover:text-blue-700">
+                  {title}
+                </h3>
                 <div className="text-gray-400 text-xs mt-1">
                   <span>Shane Doe</span> • <span>{date}</span>
                 </div>

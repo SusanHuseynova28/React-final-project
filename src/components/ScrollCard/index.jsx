@@ -1,6 +1,6 @@
 import React from "react";
 import { SlEnvolopeLetter } from "react-icons/sl";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 const ScrollCard = () => {
   return (
     <div className="container  flex justify-center items-center mt-[3rem] mb-[11rem] ">
@@ -294,7 +294,7 @@ const ScrollCard = () => {
         <div className="border p-6 rounded-lg shadow-lg h-auto w-[18rem] bg-white">
           <div className="flex justify-center -mt-10 mb-4">
             <div className="bg-blue-700 text-white p-4 rounded-full">
-            <SlEnvolopeLetter />
+              <SlEnvolopeLetter />
             </div>
           </div>
           <h3 className="text-black text-2xl font-bold w-full text-center">
@@ -337,10 +337,7 @@ const ScrollCard = () => {
                 1
               </span>
               <div>
-                <Link
-                  
-                  className="text-black text-sm font-semibold hover:text-blue-500 "
-                >
+                <Link className="text-black text-sm font-semibold hover:text-blue-500 ">
                   Popular New Xbox Game Pass Game Being Review Bombed With “0s”
                 </Link>
                 <p className="text-gray-500 text-xs">

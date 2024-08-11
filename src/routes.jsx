@@ -14,10 +14,8 @@ export const routes = createBrowserRouter([
       },
       {
         path: "/gadgets",
-        element: <GadGets/>
+        element: <GadGets />,
       },
     ],
   },
-  
 ]);
-

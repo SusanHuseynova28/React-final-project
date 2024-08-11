@@ -3,13 +3,12 @@ import { FaRegClock } from "react-icons/fa";
 import CardList from "../components/CardList";
 import VideoCards from "../components/VideoCard";
 import NewGadgets from "../components/ScrollCard";
-import Banner from "../components/advertisement";
+import Banner from "../components/Advertisement1";
 import ScrollCard from "../components/ScrollCard";
 import Banner2 from "../components/Advertisment2";
 import HighlightedReview from "../components/Advertesment3";
 import RecentPosts from "../components/ScrollCard2";
 import MyCRUDApp from "../components/crudcard";
-
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -267,17 +266,17 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <Banner/>
+        <Banner />
         <div className="font-bold text-3xl text-center">Editor's Picks</div>
       </div>
-      
+
       <CardList cards={data} />
-      <VideoCards/>
-      <ScrollCard/>
-      <Banner2/>
-      <HighlightedReview/>
-      <MyCRUDApp/>
-      <RecentPosts/>
+      <VideoCards />
+      <ScrollCard />
+      <Banner2 />
+      <HighlightedReview />
+      <MyCRUDApp />
+      <RecentPosts />
     </>
   );
 };
