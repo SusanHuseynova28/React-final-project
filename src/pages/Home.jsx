@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { FaRegClock } from "react-icons/fa";
 import CardList from "../components/CardList";
 import VideoCards from "../components/VideoCard";
-import NewGadgets from "../components/ScrollCard";
 import Banner from "../components/Advertisement1";
 import ScrollCard from "../components/ScrollCard";
 import Banner2 from "../components/Advertisment2";
@@ -272,7 +271,7 @@ const Home = () => {
 
       <CardList cards={data} />
       <VideoCards />
-      <ScrollCard />
+      <ScrollCard/>
       <Banner2 />
       <HighlightedReview />
       <MyCRUDApp />
